@@ -2,7 +2,7 @@
 
 메모리의 비교에는 `===` 사용
 
-```
+```kotlin
 val a: Int = 10_000
 print(a === a)    // 'true'
 val b: Int? = a
@@ -12,7 +12,7 @@ print(b === c)    // 'false'
 
 값의 비교에는 `==` 사용
 
-```
+```kotlin
 val a: Int = 10_000
 print(a == a)    // 'true'
 val b: Int? = a
@@ -57,7 +57,7 @@ Any
 - 호출 시점에 초기화.
 - val (immutable)과 함께 사용
 
-```
+```kotlin
 val name: String by lazy {
     "-"
 }
@@ -68,6 +68,6 @@ val name: String by lazy {
 - 사용 전에 초기화 하지 않으면 에러 발생
 - var (mutable)과 함께 사용
 
-```
+```kotlin
 lateinit var name:String
 ```
