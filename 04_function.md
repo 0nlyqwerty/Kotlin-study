@@ -36,7 +36,7 @@ fun getSum(a: Int, b: Int) = a + b
 
 함수를 확장하여 기존에 있던 것처럼 사용할 수 있음.
 
-> 단, Extenstion 보다 Class 내에 있던 원래 함수가 우선순위가 높음
+> 단, Extension 보다 Class 내에 있던 원래 함수가 우선순위가 높음
 
 ```kotlin
 fun 타입.함수명(변수): 리턴 타입 {
@@ -70,7 +70,7 @@ fun test() {
 }
 ```
 
-## Extenstion Properties
+## Extension Properties
 
 `Function Extension` 으로도 구현이 가능하나 Property 자체 또한 간단히 확장해줄 수 있음
 
