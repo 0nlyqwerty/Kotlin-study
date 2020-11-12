@@ -30,7 +30,7 @@ fun test() {
 
 ## when
 
-코틀린에는 `switch` 문이 존재하지 않음.
+코틀린에는 `switch` 문이 존재하지 않기에 아래와 같이 `when` 사용
 
 ```kotlin
 val a = 10
